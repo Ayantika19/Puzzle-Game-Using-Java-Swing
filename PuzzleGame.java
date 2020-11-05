@@ -11,7 +11,7 @@ import java.awt.event.*;
 public class PuzzleGame extends JFrame implements ActionListener{
 JButton b1,b2,b3,b4,b5,b6,b7,b8,b9,next;
 PuzzleGame(){
-super("puzzle game");
+super("Puzzle Game");
  b1=new JButton("1");
  b2=new JButton(" ");
  b3=new JButton("3");
@@ -21,7 +21,7 @@ super("puzzle game");
  b7=new JButton("7");
  b8=new JButton("8");
  b9=new JButton("2");
- next=new JButton("next");
+ next=new JButton("New Game");
 
 b1.setBounds(10,30,50,40);
 b2.setBounds(70,30,50,40);
